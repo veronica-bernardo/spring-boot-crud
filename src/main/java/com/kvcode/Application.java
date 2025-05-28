@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 // To start creating REST API.
 @RestController
-public class SpringBootCrudApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootCrudApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
     // To expose this method as end point.
