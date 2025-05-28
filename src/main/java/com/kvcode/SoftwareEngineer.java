@@ -4,6 +4,10 @@ public class SoftwareEngineer {
     private Integer id;
     private String name;
     private String techStack;
+
+    // No-arg constructor
+    public SoftwareEngineer() {
+    }
 }
 
 
