@@ -8,6 +8,13 @@ public class SoftwareEngineer {
     // No-arg constructor
     public SoftwareEngineer() {
     }
+
+    // All args constructor
+    public SoftwareEngineer(Integer id, String name, String techStack) {
+        this.id = id;
+        this.name = name;
+        this.techStack = techStack;
+    }
 }
 
 
